@@ -1,0 +1,103 @@
+{
+    "provinces": {
+        "name": "Por provincias",
+        "value": "provinces",
+        "items": [
+            {
+                "name": "Cuba",
+                "url": "maps/by_provinces/cuba.geojson" 
+            }
+        ]
+    },
+    "municipalities": {
+        "name": "Por municipios",
+        "value": "municipalities",
+        "items": [
+            {
+                "name": "Cuba",
+                "code": "all",
+                "url": "maps/by_municipalities/cuba.geojson" 
+            },
+            {
+                "name": "Pinar del Río",
+                "code": "21",
+                "url": "maps/by_municipalities/provinces/pri.geojson" 
+            },
+            {
+                "name": "Artemisa",
+                "code": "22",
+                "url": "maps/by_municipalities/provinces/art.geojson" 
+            },
+            {
+                "name": "Isla de la Juventud",
+                "code": "40.01",
+                "url": "maps/by_municipalities/provinces/ijv.geojson" 
+            },
+            {
+                "name": "La Habana",
+                "code": "23",
+                "url": "maps/by_municipalities/provinces/lha.geojson" 
+            },
+            {
+                "name": "Mayabeque",
+                "code": "24",
+                "url": "maps/by_municipalities/provinces/may.geojson" 
+            },
+            {
+                "name": "Matanzas",
+                "code": "25",
+                "url": "maps/by_municipalities/provinces/mat.geojson" 
+            },
+            {
+                "name": "Villa Clara",
+                "code": "26",
+                "url": "maps/by_municipalities/provinces/vcl.geojson" 
+            },
+            {
+                "name": "Cienfuegos",
+                "code": "27",
+                "url": "maps/by_municipalities/provinces/cfg.geojson" 
+            },
+            {
+                "name": "Sancti Spíritus",
+                "code": "28",
+                "url": "maps/by_municipalities/provinces/ssp.geojson" 
+            },
+            {
+                "name": "Ciego de Ávila",
+                "code": "29",
+                "url": "maps/by_municipalities/provinces/cav.geojson" 
+            },
+            {
+                "name": "Camagüey",
+                "code": "30",
+                "url": "maps/by_municipalities/provinces/cam.geojson" 
+            },
+            {
+                "name": "Las Tunas",
+                "code": "31",
+                "url": "maps/by_municipalities/provinces/ltu.geojson" 
+            },
+            {
+                "name": "Holguín",
+                "code": "32",
+                "url": "maps/by_municipalities/provinces/hol.geojson" 
+            },
+            {
+                "name": "Granma",
+                "code": "33",
+                "url": "maps/by_municipalities/provinces/gra.geojson" 
+            },
+            {
+                "name": "Santiago de Cuba",
+                "code": "34",
+                "url": "maps/by_municipalities/provinces/stg.geojson" 
+            },
+            {
+                "name": "Guantánamo",
+                "code": "35",
+                "url": "maps/by_municipalities/provinces/gtm.geojson" 
+            }
+        ]
+    }
+}

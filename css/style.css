@@ -1,0 +1,164 @@
+ body,
+ html {
+     height: 100%;
+     margin-top: 0px;
+     background-color: #e7f4f3;
+ }
+
+ .centereddiv {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     padding-bottom: 0px;
+ }
+
+ #mapselectionblock {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 5px;
+ }
+
+ #colorsselectionblock,
+ #exportdiv {
+     justify-content: center;
+     display: flex;
+     gap: 5px;
+     padding: 5px;
+ }
+
+
+ #basecolordiv,
+ #addcolordiv,
+ #setcolordiv {
+     align-items: center;
+     border: 1px solid #ccc;
+     padding: 3px;
+     border-radius: 5px;
+ }
+
+  #addcolordivinner {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+  }
+
+ #generalselectionblock,
+ #provinceselectionblock,
+ #municipalityselectionblock {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ #generalselectioninnerblock,
+ #provinceselectioninnerblock,
+ #municipalityselectioninnerblock {
+     display: flex;
+     justify-content: space-between;
+     padding: 3px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+ }
+
+ .generalselectioninnerdiv,
+ .provinceselectioninnerdiv,
+ .municipalityselectioninnerdiv {
+     padding: 2px;
+     text-align: center;
+
+ }
+
+ .labels {
+     font-size: 1.2rem;
+ }
+
+ #map {
+     height: 430px;
+     background-color: white;
+     border: 1px solid #333333;
+ }
+
+ path.leaflet-interactive:focus {
+     outline: none;
+ }
+
+ .color-box {
+     position: relative;
+     display: inline-block;
+     width: 30px;
+     height: 30px;
+     margin: 5px 6px 5px 0;
+     border: 2px solid #444;
+     border-radius: 4px;
+     cursor: pointer;
+     box-sizing: border-box;
+     transition: border-color 0.3s ease;
+ }
+
+ .color-box:hover {
+     border-color: black;
+ }
+
+ .delete-button {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 20px;
+     height: 20px;
+     background: rgba(0, 0, 0, 0.2);
+     color: white;
+     font-weight: bold;
+     border-radius: 50%;
+     font-size: 14px;
+     line-height: normal;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     user-select: none;
+     transition: background 0.3s ease;
+ }
+
+ .delete-button:hover {
+     background: rgba(63, 61, 61, 0.7);
+ }
+
+ .selected-colors {
+     margin-top: 15px;
+ }
+
+ select,
+ button {
+     font-size: 1rem;
+     padding: 6px 8px;
+     border-radius: 4px;
+ }
+
+ input {
+     height: 2.1rem;
+     padding: 1px ;
+     border-radius: 4px;
+ }
+
+ .colorPreviewBox {
+     width: 30px;
+     height: 30px;
+     border: 2px solid #444;
+     border-radius: 4px;
+     box-sizing: border-box;
+     display: none;
+     vertical-align: middle;
+     margin-left: 10px;
+ }
+
+ #colorMenu {
+     font-family: Arial, sans-serif;
+     font-size: 14px;
+     display: none;
+ }
+
+ .menu-item:hover {
+     opacity: 0.8;
+ }

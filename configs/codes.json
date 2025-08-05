@@ -1,0 +1,786 @@
+{
+    "25": {
+        "name": "Matanzas",
+        "id": "mat",
+        "code": "25",
+        "municipalities": {
+            "25.03": {
+                "name": "Mart\u00ed",
+                "code": "25.03"
+            },
+            "25.02": {
+                "name": "C\u00e1rdenas",
+                "code": "25.02"
+            },
+            "25.01": {
+                "name": "Matanzas",
+                "code": "25.01"
+            },
+            "25.08": {
+                "name": "Limonar",
+                "code": "25.08"
+            },
+            "25.09": {
+                "name": "Uni\u00f3n de Reyes",
+                "code": "25.09"
+            },
+            "25.05": {
+                "name": "Perico",
+                "code": "25.05"
+            },
+            "25.06": {
+                "name": "Jovellanos",
+                "code": "25.06"
+            },
+            "25.07": {
+                "name": "Pedro Betancourt",
+                "code": "25.07"
+            },
+            "25.13": {
+                "name": "Los Arabos",
+                "code": "25.13"
+            },
+            "25.04": {
+                "name": "Col\u00f3n",
+                "code": "25.04"
+            },
+            "25.11": {
+                "name": "Jag\u00fcey Grande",
+                "code": "25.11"
+            },
+            "25.12": {
+                "name": "Calimete",
+                "code": "25.12"
+            },
+            "25.10": {
+                "name": "Cienaga de Zapata",
+                "code": "25.10"
+            }
+        }
+    },
+    "23": {
+        "name": "La Habana",
+        "id": "lha",
+        "code": "23",
+        "municipalities": {
+            "23.06": {
+                "name": "Habana del Este",
+                "code": "23.06"
+            },
+            "23.03": {
+                "name": "Centro Habana",
+                "code": "23.03"
+            },
+            "23.05": {
+                "name": "Regla",
+                "code": "23.05"
+            },
+            "23.02": {
+                "name": "Plaza de la Revoluci\u00f3n",
+                "code": "23.02"
+            },
+            "23.04": {
+                "name": "La Habana Vieja",
+                "code": "23.04"
+            },
+            "23.10": {
+                "name": "Cerro",
+                "code": "23.10"
+            },
+            "23.09": {
+                "name": "Diez de Octubre",
+                "code": "23.09"
+            },
+            "23.07": {
+                "name": "Guanabacoa",
+                "code": "23.07"
+            },
+            "23.08": {
+                "name": "San Miguel del Padr\u00f3n",
+                "code": "23.08"
+            },
+            "23.01": {
+                "name": "Playa",
+                "code": "23.01"
+            },
+            "23.14": {
+                "name": "Arroyo Naranjo",
+                "code": "23.14"
+            },
+            "23.13": {
+                "name": "Boyeros",
+                "code": "23.13"
+            },
+            "23.11": {
+                "name": "Marianao",
+                "code": "23.11"
+            },
+            "23.15": {
+                "name": "Cotorro",
+                "code": "23.15"
+            },
+            "23.12": {
+                "name": "La Lisa",
+                "code": "23.12"
+            }
+        }
+    },
+    "24": {
+        "name": "Mayabeque",
+        "id": "may",
+        "code": "24",
+        "municipalities": {
+            "24.04": {
+                "name": "Santa Cruz del Norte",
+                "code": "24.04"
+            },
+            "24.02": {
+                "name": "San Jos\u00e9 de las Lajas",
+                "code": "24.02"
+            },
+            "24.03": {
+                "name": "Jaruco",
+                "code": "24.03"
+            },
+            "24.05": {
+                "name": "Madruga",
+                "code": "24.05"
+            },
+            "24.01": {
+                "name": "Bejucal",
+                "code": "24.01"
+            },
+            "24.11": {
+                "name": "Quivic\u00e1n",
+                "code": "24.11"
+            },
+            "24.08": {
+                "name": "G\u00fcines",
+                "code": "24.08"
+            },
+            "24.07": {
+                "name": "San Nicol\u00e1s",
+                "code": "24.07"
+            },
+            "24.06": {
+                "name": "Nueva Paz",
+                "code": "24.06"
+            },
+            "24.10": {
+                "name": "Bataban\u00f3",
+                "code": "24.10"
+            },
+            "24.09": {
+                "name": "Melena del Sur",
+                "code": "24.09"
+            }
+        }
+    },
+    "26": {
+        "name": "Villa Clara",
+        "id": "vcl",
+        "code": "26",
+        "municipalities": {
+            "26.03": {
+                "name": "Sagua La Grande",
+                "code": "26.03"
+            },
+            "26.01": {
+                "name": "Corralillo",
+                "code": "26.01"
+            },
+            "26.02": {
+                "name": "Quemado de G\u00fcines",
+                "code": "26.02"
+            },
+            "26.11": {
+                "name": "Santo Domingo",
+                "code": "26.11"
+            },
+            "26.10": {
+                "name": "Cifuentes",
+                "code": "26.10"
+            },
+            "26.12": {
+                "name": "Ranchuelo",
+                "code": "26.12"
+            },
+            "26.09": {
+                "name": "Santa Clara",
+                "code": "26.09"
+            },
+            "26.13": {
+                "name": "Manicaragua",
+                "code": "26.13"
+            },
+            "26.04": {
+                "name": "Encrucijada",
+                "code": "26.04"
+            },
+            "26.05": {
+                "name": "Camajuan\u00ed",
+                "code": "26.05"
+            },
+            "26.06": {
+                "name": "Caibari\u00e9n",
+                "code": "26.06"
+            },
+            "26.07": {
+                "name": "Remedios",
+                "code": "26.07"
+            },
+            "26.08": {
+                "name": "Placetas",
+                "code": "26.08"
+            }
+        }
+    },
+    "22": {
+        "name": "Artemisa",
+        "id": "art",
+        "code": "22",
+        "municipalities": {
+            "22.05": {
+                "name": "Bauta",
+                "code": "22.05"
+            },
+            "22.04": {
+                "name": "Caimito",
+                "code": "22.04"
+            },
+            "22.02": {
+                "name": "Mariel",
+                "code": "22.02"
+            },
+            "22.01": {
+                "name": "Bah\u00eda Honda",
+                "code": "22.01"
+            },
+            "22.06": {
+                "name": "San Antonio de los Ba\u00f1os",
+                "code": "22.06"
+            },
+            "22.09": {
+                "name": "Artemisa",
+                "code": "22.09"
+            },
+            "22.03": {
+                "name": "Guanajay",
+                "code": "22.03"
+            },
+            "22.08": {
+                "name": "Alqu\u00edzar",
+                "code": "22.08"
+            },
+            "22.07": {
+                "name": "G\u00fcira de Melena",
+                "code": "22.07"
+            },
+            "22.10": {
+                "name": "Candelaria",
+                "code": "22.10"
+            },
+            "22.11": {
+                "name": "San Crist\u00f3bal",
+                "code": "22.11"
+            }
+        }
+    },
+    "21": {
+        "name": "Pinar del R\u00edo",
+        "id": "pri",
+        "code": "21",
+        "municipalities": {
+            "21.05": {
+                "name": "La Palma",
+                "code": "21.05"
+            },
+            "21.04": {
+                "name": "Vi\u00f1ales",
+                "code": "21.04"
+            },
+            "21.06": {
+                "name": "Los Palacios",
+                "code": "21.06"
+            },
+            "21.03": {
+                "name": "Minas de Matahambre",
+                "code": "21.03"
+            },
+            "21.07": {
+                "name": "Consolaci\u00f3n del sur",
+                "code": "21.07"
+            },
+            "21.02": {
+                "name": "Mantua",
+                "code": "21.02"
+            },
+            "21.08": {
+                "name": "Pinar del R\u00edo",
+                "code": "21.08"
+            },
+            "21.10": {
+                "name": "San Juan y Mart\u00ednez",
+                "code": "21.10"
+            },
+            "21.11": {
+                "name": "Guane",
+                "code": "21.11"
+            },
+            "21.09": {
+                "name": "San Luis",
+                "code": "21.09"
+            },
+            "21.01": {
+                "name": "Sandino",
+                "code": "21.01"
+            }
+        }
+    },
+    "27": {
+        "name": "Cienfuegos",
+        "id": "cfg",
+        "code": "27",
+        "municipalities": {
+            "27.02": {
+                "name": "Rodas",
+                "code": "27.02"
+            },
+            "27.04": {
+                "name": "Lajas",
+                "code": "27.04"
+            },
+            "27.01": {
+                "name": "Aguada de Pasajeros",
+                "code": "27.01"
+            },
+            "27.03": {
+                "name": "Palmira",
+                "code": "27.03"
+            },
+            "27.05": {
+                "name": "Cruces",
+                "code": "27.05"
+            },
+            "27.06": {
+                "name": "Cumanayagua",
+                "code": "27.06"
+            },
+            "27.07": {
+                "name": "Cienfuegos",
+                "code": "27.07"
+            },
+            "27.08": {
+                "name": "Abreus",
+                "code": "27.08"
+            }
+        }
+    },
+    "40.01": {
+        "name": "Isla de la Juventud",
+        "id": "ijv",
+        "code": "40.01",
+        "municipalities": {
+            "40.01": {
+                "name": "Isla de la Juventud",
+                "code": "40.01"
+            }
+        }
+    },
+    "28": {
+        "name": "Sancti Sp\u00edritus",
+        "id": "ssp",
+        "code": "28",
+        "municipalities": {
+            "28.06": {
+                "name": "Trinidad",
+                "code": "28.06"
+            },
+            "28.01": {
+                "name": "Yaguajay",
+                "code": "28.01"
+            },
+            "28.04": {
+                "name": "Cabaigu\u00e1n",
+                "code": "28.04"
+            },
+            "28.05": {
+                "name": "Fomento",
+                "code": "28.05"
+            },
+            "28.03": {
+                "name": "Taguasco",
+                "code": "28.03"
+            },
+            "28.02": {
+                "name": "Jatibonico",
+                "code": "28.02"
+            },
+            "28.07": {
+                "name": "Sancti Sp\u00edritus",
+                "code": "28.07"
+            },
+            "28.08": {
+                "name": "La Sierpe",
+                "code": "28.08"
+            }
+        }
+    },
+    "29": {
+        "name": "Ciego de \u00c1vila",
+        "id": "cav",
+        "code": "29",
+        "municipalities": {
+            "29.01": {
+                "name": "Chambas",
+                "code": "29.01"
+            },
+            "29.02": {
+                "name": "Mor\u00f3n",
+                "code": "29.02"
+            },
+            "29.06": {
+                "name": "Florencia",
+                "code": "29.06"
+            },
+            "29.05": {
+                "name": "Ciro Redondo",
+                "code": "29.05"
+            },
+            "29.03": {
+                "name": "Bolivia",
+                "code": "29.03"
+            },
+            "29.04": {
+                "name": "Primero de Enero",
+                "code": "29.04"
+            },
+            "29.07": {
+                "name": "Majagua",
+                "code": "29.07"
+            },
+            "29.08": {
+                "name": "Ciego de \u00c1vila",
+                "code": "29.08"
+            },
+            "29.10": {
+                "name": "Baragu\u00e1",
+                "code": "29.10"
+            },
+            "29.09": {
+                "name": "Venezuela",
+                "code": "29.09"
+            }
+        }
+    },
+    "30": {
+        "name": "Camag\u00fcey",
+        "id": "cam",
+        "code": "30",
+        "municipalities": {
+            "30.05": {
+                "name": "Nuevitas",
+                "code": "30.05"
+            },
+            "30.02": {
+                "name": "Esmeralda",
+                "code": "30.02"
+            },
+            "30.03": {
+                "name": "Sierra de Cubitas",
+                "code": "30.03"
+            },
+            "30.04": {
+                "name": "Minas",
+                "code": "30.04"
+            },
+            "30.01": {
+                "name": "Carlos Manuel de C\u00e9spedes",
+                "code": "30.01"
+            },
+            "30.09": {
+                "name": "Florida",
+                "code": "30.09"
+            },
+            "30.08": {
+                "name": "Camag\u00fcey",
+                "code": "30.08"
+            },
+            "30.06": {
+                "name": "Gu\u00e1imaro",
+                "code": "30.06"
+            },
+            "30.07": {
+                "name": "Sibanic\u00fa",
+                "code": "30.07"
+            },
+            "30.10": {
+                "name": "Vertientes",
+                "code": "30.10"
+            },
+            "30.11": {
+                "name": "Jimaguay\u00fa",
+                "code": "30.11"
+            },
+            "30.13": {
+                "name": "Santa Cruz del Sur",
+                "code": "30.13"
+            },
+            "30.12": {
+                "name": "Najasa",
+                "code": "30.12"
+            }
+        }
+    },
+    "31": {
+        "name": "Las Tunas",
+        "id": "ltu",
+        "code": "31",
+        "municipalities": {
+            "31.01": {
+                "name": "Manat\u00ed",
+                "code": "31.01"
+            },
+            "31.03": {
+                "name": "Jes\u00fas Men\u00e9ndez",
+                "code": "31.03"
+            },
+            "31.02": {
+                "name": "Puerto Padre",
+                "code": "31.02"
+            },
+            "31.05": {
+                "name": "Las Tunas",
+                "code": "31.05"
+            },
+            "31.06": {
+                "name": "Jobabo",
+                "code": "31.06"
+            },
+            "31.07": {
+                "name": "Colombia",
+                "code": "31.07"
+            },
+            "31.08": {
+                "name": "Amancio",
+                "code": "31.08"
+            },
+            "31.04": {
+                "name": "Majibacoa",
+                "code": "31.04"
+            }
+        }
+    },
+    "32": {
+        "name": "Holgu\u00edn",
+        "id": "hol",
+        "code": "32",
+        "municipalities": {
+            "32.03": {
+                "name": "Banes",
+                "code": "32.03"
+            },
+            "32.01": {
+                "name": "Gibara",
+                "code": "32.01"
+            },
+            "32.02": {
+                "name": "Rafael Freyre",
+                "code": "32.02"
+            },
+            "32.07": {
+                "name": "Calixto Garc\u00eda",
+                "code": "32.07"
+            },
+            "32.06": {
+                "name": "Holgu\u00edn",
+                "code": "32.06"
+            },
+            "32.05": {
+                "name": "B\u00e1guanos",
+                "code": "32.05"
+            },
+            "32.04": {
+                "name": "Antilla",
+                "code": "32.04"
+            },
+            "32.11": {
+                "name": "Mayar\u00ed",
+                "code": "32.11"
+            },
+            "32.08": {
+                "name": "Cacocum",
+                "code": "32.08"
+            },
+            "32.14": {
+                "name": "Moa",
+                "code": "32.14"
+            },
+            "32.12": {
+                "name": "Frank Pa\u00eds",
+                "code": "32.12"
+            },
+            "32.10": {
+                "name": "Cueto",
+                "code": "32.10"
+            },
+            "32.09": {
+                "name": "Urbano Noris",
+                "code": "32.09"
+            },
+            "32.13": {
+                "name": "Sagua de T\u00e1namo",
+                "code": "32.13"
+            }
+        }
+    },
+    "33": {
+        "name": "Granma",
+        "id": "gra",
+        "code": "33",
+        "municipalities": {
+            "33.01": {
+                "name": "R\u00edo Cauto",
+                "code": "33.01"
+            },
+            "33.02": {
+                "name": "Cauto Cristo",
+                "code": "33.02"
+            },
+            "33.04": {
+                "name": "Bayamo",
+                "code": "33.04"
+            },
+            "33.03": {
+                "name": "Jiguan\u00ed",
+                "code": "33.03"
+            },
+            "33.05": {
+                "name": "Yara",
+                "code": "33.05"
+            },
+            "33.06": {
+                "name": "Manzanillo",
+                "code": "33.06"
+            },
+            "33.13": {
+                "name": "Guisa",
+                "code": "33.13"
+            },
+            "33.12": {
+                "name": "Buey Arriba",
+                "code": "33.12"
+            },
+            "33.11": {
+                "name": "Bartolom\u00e9 Mas\u00f3",
+                "code": "33.11"
+            },
+            "33.08": {
+                "name": "Media Luna",
+                "code": "33.08"
+            },
+            "33.09": {
+                "name": "Niquero",
+                "code": "33.09"
+            },
+            "33.10": {
+                "name": "Pil\u00f3n",
+                "code": "33.10"
+            },
+            "33.07": {
+                "name": "Campechuela",
+                "code": "33.07"
+            }
+        }
+    },
+    "34": {
+        "name": "Santiago de Cuba",
+        "id": "stg",
+        "code": "34",
+        "municipalities": {
+            "34.04": {
+                "name": "Segundo Frente",
+                "code": "34.04"
+            },
+            "34.02": {
+                "name": "Mella",
+                "code": "34.02"
+            },
+            "34.01": {
+                "name": "Contramaestre",
+                "code": "34.01"
+            },
+            "34.03": {
+                "name": "San Luis",
+                "code": "34.03"
+            },
+            "34.07": {
+                "name": "Palma Soriano",
+                "code": "34.07"
+            },
+            "34.05": {
+                "name": "Songo La Maya",
+                "code": "34.05"
+            },
+            "34.08": {
+                "name": "Tercer Frente",
+                "code": "34.08"
+            },
+            "34.06": {
+                "name": "Santiago de Cuba",
+                "code": "34.06"
+            },
+            "34.09": {
+                "name": "Guam\u00e1",
+                "code": "34.09"
+            }
+        }
+    },
+    "35": {
+        "name": "Guant\u00e1namo",
+        "id": "gtm",
+        "code": "35",
+        "municipalities": {
+            "35.09": {
+                "name": "Guant\u00e1namo",
+                "code": "35.09"
+            },
+            "35.03": {
+                "name": "Yateras",
+                "code": "35.03"
+            },
+            "35.01": {
+                "name": "El Salvador",
+                "code": "35.01"
+            },
+            "35.02": {
+                "name": "Manuel Tames",
+                "code": "35.02"
+            },
+            "35.10": {
+                "name": "Niceto P\u00e9rez",
+                "code": "35.10"
+            },
+            "35.08": {
+                "name": "Caimanera",
+                "code": "35.08"
+            },
+            "35.07": {
+                "name": "San Antonio del Sur",
+                "code": "35.07"
+            },
+            "35.04": {
+                "name": "Baracoa",
+                "code": "35.04"
+            },
+            "35.06": {
+                "name": "Im\u00edas",
+                "code": "35.06"
+            },
+            "35.05": {
+                "name": "Mais\u00ed",
+                "code": "35.05"
+            }
+        }
+    }
+}

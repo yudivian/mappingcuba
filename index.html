@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Mapear Cuba</title>
+  <link rel="stylesheet" href="libs/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="centereddiv">
+    <div id="mapselectionblock">
+      <p class="labels">Seleccion el mapa y tipo de mapa</p>
+      <div id="mapselectdiv">
+        <select id="region" class="mapselect"></select>
+        <select id="regionmap" class="mapselect"></select>
+      </div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <div id="exportdiv">
+    <button id="exportmapbutton" class="exportbutton">Exporta el mapa a imagen</button>
+  </div>
+
+  <div id="colorsselectionblock">
+    <div id="basecolordiv">
+      <p class="labels">Color base</p>
+      <div id="baseColor">
+        <div class="color-box" style="background-color: rgb(175, 175, 175);" title="#afafaf"></div>
+      </div>
+    </div>
+
+    <div id="addcolordiv">
+      <p class="labels">Añade un Color</p>
+      <div id="addcolordivinner">
+        <input type="color" value="#185adc" id="colorPicker" />
+        <button id="addColorButton">Adicionar</button>
+      </div>
+    </div>
+
+    <div id="setcolordiv">
+      <p class="labels">Colores a utilizar (click × para eliminar)</p>
+      <div id="selectedColors" class="selected-colors">
+        <p class="labels">No hay colores seleccionados</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="generalselectionblock">
+    <p class="labels">Seleccione la opción general y el color</p>
+    <div id="generalselectioninnerblock">
+      <div class="generalselectioninnerdiv">
+        <select name="general" id="generalcolor">
+          <option value="">Seleccione la opción</option>
+          <option value="all">Todos (cambia el color base)</option>
+          <option value="selected">Seleccionados (color distinto al base)</option>
+          <option value="notselected">No Seleccionados (color igual al base)</option>
+        </select>
+      </div>
+      <div class="generalselectioninnerdiv">
+        <select id="colorSelect1"></select>
+      </div>
+      <div class="generalselectioninnerdiv">
+        <div id="colorPreviewBox1" class="colorPreviewBox"></div>
+      </div>
+      <div class="generalselectioninnerdiv">
+        <button disabled id="generalbutton" class="applybutton">Aplicar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="provinceselectionblock">
+    <p class="labels">Selecciona la provincia y el color</p>
+    <div id="provinceselectioninnerblock">
+      <div class="provinceselectioninnerdiv">
+        <select name="province" id="provincecolor">
+          <option value="">Seleccione la provincia</option>
+        </select>
+      </div>
+      <div class="provinceselectioninnerdiv">
+        <select id="colorSelect2"></select>
+      </div>
+      <div class="provinceselectioninnerdiv">
+        <div id="colorPreviewBox2" class="colorPreviewBox"></div>
+      </div>
+      <div class="provinceselectioninnerdiv">
+        <button disabled id="provincebutton" class="applybutton">Aplicar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="municipalityselectionblock" style="display:none;">
+    <p class="labels">Selecciona el municipio y el color</p>
+    <div id="municipalityselectioninnerblock">
+      <div class="municipalityselectioninnerdiv">
+        <select name="municipality" id="municipalitycolor">
+          <option value="">Seleccione el municipio </option>
+        </select>
+      </div>
+      <div class="municipalityselectioninnerdiv">
+        <select id="colorSelect3"></select>
+      </div>
+      <div class="municipalityselectioninnerdiv">
+        <div id="colorPreviewBox3" class="colorPreviewBox"></div>
+      </div>
+      <div class="municipalityselectioninnerdiv">
+        <button disabled id="municipalitybutton" class="applybutton">Aplicar</button>
+      </div>
+    </div>
+  </div>
+
+  <p class="labels">&nbsp;</p>
+
+  <script src="libs/leaflet.js"></script>
+  <script src="libs/jquery-3.6.0.min.js"></script>
+  <script src="libs/dom-to-image.min.js"></script>
+  <script src="map.js"></script>
+
+</body>
+
+</html>
