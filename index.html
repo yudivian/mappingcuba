@@ -50,11 +50,11 @@
   </div>
 
   <div id="generalselectionblock">
-    <p class="labels">Seleccione la opción general y el color</p>
+    <!-- <p class="labels">Seleccione la opción general y el color</p> -->
     <div id="generalselectioninnerblock">
       <div class="generalselectioninnerdiv">
         <select name="general" id="generalcolor">
-          <option value="">Seleccione la opción</option>
+          <option value="">Seleccione la opción general</option>
           <option value="all">Todos (cambia el color base)</option>
           <option value="selected">Seleccionados (color distinto al base)</option>
           <option value="notselected">No Seleccionados (color igual al base)</option>
@@ -63,7 +63,7 @@
       <div class="generalselectioninnerdiv">
         <select id="colorSelect1"></select>
       </div>
-      <div class="generalselectioninnerdiv">
+      <div id="generalselectioninnerdivbox" class="generalselectioninnerdiv">
         <div id="colorPreviewBox1" class="colorPreviewBox"></div>
       </div>
       <div class="generalselectioninnerdiv">
@@ -73,7 +73,7 @@
   </div>
 
   <div id="provinceselectionblock">
-    <p class="labels">Selecciona la provincia y el color</p>
+    <!-- <p class="labels">Selecciona la provincia y el color</p> -->
     <div id="provinceselectioninnerblock">
       <div class="provinceselectioninnerdiv">
         <select name="province" id="provincecolor">
@@ -83,7 +83,7 @@
       <div class="provinceselectioninnerdiv">
         <select id="colorSelect2"></select>
       </div>
-      <div class="provinceselectioninnerdiv">
+      <div id="provinceselectioninnerdivbox" class="provinceselectioninnerdiv">
         <div id="colorPreviewBox2" class="colorPreviewBox"></div>
       </div>
       <div class="provinceselectioninnerdiv">
@@ -93,7 +93,7 @@
   </div>
 
   <div id="municipalityselectionblock" style="display:none;">
-    <p class="labels">Selecciona el municipio y el color</p>
+    <!-- <p class="labels">Selecciona el municipio y el color</p> -->
     <div id="municipalityselectioninnerblock">
       <div class="municipalityselectioninnerdiv">
         <select name="municipality" id="municipalitycolor">
@@ -103,7 +103,7 @@
       <div class="municipalityselectioninnerdiv">
         <select id="colorSelect3"></select>
       </div>
-      <div class="municipalityselectioninnerdiv">
+      <div id="municipalitysselectioninnerdivbox" class="municipalityselectioninnerdiv">
         <div id="colorPreviewBox3" class="colorPreviewBox"></div>
       </div>
       <div class="municipalityselectioninnerdiv">
@@ -117,7 +117,7 @@
   <script src="libs/leaflet.js"></script>
   <script src="libs/jquery-3.6.0.min.js"></script>
   <script src="libs/dom-to-image.min.js"></script>
-  <script src="map.js"></script>
+  <script src="libs/map.js"></script>
 
 </body>
 

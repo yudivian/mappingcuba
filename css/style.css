@@ -37,11 +37,11 @@
      border-radius: 5px;
  }
 
-  #addcolordivinner {
-    display: flex;
-    align-items: flex-end;
-    gap: 3px;
-  }
+ #addcolordivinner {
+     display: flex;
+     align-items: flex-end;
+     gap: 3px;
+ }
 
  #generalselectionblock,
  #provinceselectionblock,
@@ -136,9 +136,15 @@
      border-radius: 4px;
  }
 
+ #generalcolor,
+ #provincecolor,
+ #municipalitycolor {
+     width: 265px;
+ }
+
  input {
      height: 2.1rem;
-     padding: 1px ;
+     padding: 1px;
      border-radius: 4px;
  }
 
@@ -151,6 +157,12 @@
      display: none;
      vertical-align: middle;
      margin-left: 10px;
+ }
+
+ #generalselectioninnerdivbox,
+ #provinceselectioninnerdivbox,
+ #municipalitysselectioninnerdivbox {
+     width: 40px;
  }
 
  #colorMenu {
