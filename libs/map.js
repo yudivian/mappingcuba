@@ -252,10 +252,10 @@ function applyColor(color) {
   if (map.lastClickedLayer) {
     // map.lastClickedLayer.setStyle({ fillColor: color });
     if ("DPA_municipality_code" in map.lastClickedLayer.feature.properties) {
-      setSpecificRegionFillColors([map.lastClickedLayer.feature.properties.DPA_municipality_code],"municipality",color)
+      setSpecificRegionFillColors([map.lastClickedLayer.feature.properties.DPA_municipality_code], "municipality", color)
       // colorRegions.municipalities[map.lastClickedLayer.feature.properties.DPA_municipality_code]=color;
     } else {
-      setSpecificRegionFillColors([map.lastClickedLayer.feature.properties.DPA_province_code],"province",color)
+      setSpecificRegionFillColors([map.lastClickedLayer.feature.properties.DPA_province_code], "province", color)
       // colorRegions.provinces[map.lastClickedLayer.feature.properties.DPA_province_code]=color;
     }
   }
@@ -292,7 +292,7 @@ function setSpecificRegionFillColors(regionsToColor, regionType, regionColor) {
         if (regionType === "municipality") {
           colorRegions.municipalities[layer.feature.properties.DPA_municipality_code] = newColor;
         } else if (regionType === "province") {
-          
+
           colorRegions.provinces[layer.feature.properties.DPA_province_code] = newColor;
         } else {
           if ("DPA_municipality_code" in layer.feature.properties) {
@@ -429,7 +429,7 @@ function paintGeneralColor() {
         }
       }
     } else if (gencolor === "notselected") {
-       for (const [prov, pcolor] of Object.entries(colorRegions.provinces)) {
+      for (const [prov, pcolor] of Object.entries(colorRegions.provinces)) {
         if (pcolor === baseColor) {
           setSpecificRegionFillColors([prov], "province", selectcolor);
         }
@@ -571,12 +571,18 @@ function onEachFeature(feature, layer) {
       mouseout: function (e) {
         layer.setStyle(defaultPolygonStyle);
       },
-      contextmenu: function (e) {
-        e.originalEvent.preventDefault();
-        e.originalEvent.stopPropagation();
-        map.lastClickedLayer = layer;
-        showColorMenu(e.originalEvent.clientX, e.originalEvent.clientY);
-      }
+      // contextmenu: function (e) {
+      //   e.originalEvent.preventDefault();
+      //   e.originalEvent.stopPropagation();
+      //   map.lastClickedLayer = layer;
+      //   showColorMenu(e.originalEvent.clientX, e.originalEvent.clientY);
+      // },
+      click: function(e) {
+          e.originalEvent.preventDefault();
+          e.originalEvent.stopPropagation();
+          map.lastClickedLayer = layer;
+          showColorMenu(e.originalEvent.clientX, e.originalEvent.clientY);
+        }
     });
   }
 }
